@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        double vnd = 23000;
+        double usd;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Moi ban nhap so USD: ");
+        usd = scanner.nextDouble();
+        double recharge = usd * 23000;
+        System.out.println("Gia tri VND: " + recharge);
+    }
+}
